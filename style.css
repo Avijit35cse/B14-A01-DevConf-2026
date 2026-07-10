@@ -16,7 +16,10 @@ body {
     border-radius: 10px;
     padding: 8px 20px;
 }
-
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /* Global selector end */
 
 /* ..........Header section start............. */
@@ -84,6 +87,60 @@ body {
 .hero-button {
     padding-top: 180px;
 }
-
 /* hero section end */
 /* ............Header section end............ */
+.speakers-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 80px;
+}
+.speakers-heading{
+    margin-bottom: 56px;
+}
+.speakers-heading h2{
+    font-size: 56px;
+    font-weight: bold;
+    color: #000102;
+}
+.speaker-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+    
+.speaker-card{
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+    background:#fff;
+}
+
+.speaker-card img{
+    width: 100%;
+    display: block;
+}
+.speaker-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 5px;
+    
+}
+.info-title{
+    font-size: 12px;
+    font-weight: 600;
+    color: #2563EB;
+}
+.info-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.info-description{
+    font-size: 14px;
+    color: #575757;
+}

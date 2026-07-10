@@ -13,13 +13,35 @@ body {
     background-color: #1D4ED8;
     color: #FFFFFF;
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
     padding: 8px 20px;
+    text-align: center;
+    margin-top: auto;
 }
-.container{
+
+.featured-button {
+    border: 1px solid blue;
+    border-radius: 12px;
+    color: blue;
+    padding: 8px 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.team-button {
+    border: 1px solid rgb(25, 25, 26);
+    border-radius: 12px;
+    color: rgb(25, 25, 26);
+    padding: 8px 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 /* Global selector end */
 
 /* ..........Header section start............. */
@@ -87,60 +109,272 @@ body {
 .hero-button {
     padding-top: 180px;
 }
+
 /* hero section end */
 /* ............Header section end............ */
-.speakers-container{
+
+/* ............Speakers section start............ */
+.speakers-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    padding-top: 80px;
+    padding: 80px 0;
 }
-.speakers-heading{
+
+.speakers-heading {
     margin-bottom: 56px;
 }
-.speakers-heading h2{
+
+.speakers-heading h2 {
     font-size: 56px;
     font-weight: bold;
     color: #000102;
 }
-.speaker-content{
+
+.speaker-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
 }
-    
-.speaker-card{
+
+.speaker-card {
     border: 1px solid #e5e7eb;
     border-radius: 12px;
     overflow: hidden;
-    background:#fff;
+    background: #fff;
 }
 
-.speaker-card img{
+.speaker-card img {
     width: 100%;
     display: block;
 }
-.speaker-info{
+
+.speaker-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
     gap: 5px;
-    
+
 }
-.info-title{
+
+.info-title {
     font-size: 12px;
     font-weight: 600;
     color: #2563EB;
 }
-.info-name{
+
+.info-name {
     font-size: 20px;
     font-weight: bold;
     color: #0D1B2A;
 }
-.info-description{
+
+.info-description {
     font-size: 14px;
     color: #575757;
 }
+
+/* ............Speakers section end............ */
+
+/* ............Pricing section start............ */
+.pricing-container {
+    padding: 0 60px;
+}
+
+.pricing-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.pricing-header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+
+.pricing-header p {
+    font-size: 16px;
+    color: #575757;
+
+}
+
+.pricing-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 45px;
+}
+
+.pricing-card {
+    padding: 32px;
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+}
+
+.pricing-card-header {
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+.pricing-card-header h2 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+.pricing-card-header h3 {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.pricing-card-header p {
+    font-size: 13px;
+    color: #888888;
+}
+
+.pricing-card hr {
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #E5E7EB;
+}
+
+.pricing-card-features {
+    margin-bottom: 20px;
+}
+
+.pricing-card-features ul {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.pricing-card-features ul li::marker {
+    color: #2563eb;
+}
+
+.pricing-button {
+    margin-top: auto;
+    text-align: center;
+}
+
+.featured-card {
+    background-color: #0D1B2A;
+    font-size: 14px;
+    padding: 32px;
+    border-radius: 10px;
+}
+
+.featured-card-header {
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+.featured-card-header h2 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #93C5FD;
+}
+
+.featured-card-header h3 {
+    font-size: 44px;
+    font-weight: bold;
+    color: #FFFFFF;
+    opacity: 100%;
+}
+
+.featured-card-header p {
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 80%;
+}
+
+.featured-card hr {
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #E5E7EB;
+    opacity: 10%;
+}
+
+.featured-card-features {
+    margin-bottom: 20px;
+}
+
+.featured-card-features ul {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 50%;
+}
+
+.featured-card-features ul li::marker {
+    color: #2563eb;
+}
+
+.team-card {
+    font-size: 14px;
+    padding: 32px;
+    border-radius: 10px;
+    border: 1px solid #E5E7EB;
+}
+
+.team-card-header {
+    line-height: 1.5;
+    padding: 20px 0;
+}
+
+.team-card-header h2 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+.team-card-header h3 {
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+
+.team-card-header p {
+    font-size: 13px;
+    color: #888888;
+}
+
+.team-card hr {
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid #E5E7EB;
+}
+
+.team-card-features {
+    margin-bottom: 20px;
+}
+
+.team-card-features ul {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.team-card-features ul li::marker {
+    color: #2563eb;
+}
+
+/* ............Pricing section end............ */

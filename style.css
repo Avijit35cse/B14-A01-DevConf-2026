@@ -389,6 +389,202 @@ body {
 }
 
 /* ............Pricing section end............ */
+/* journey section start */
+/* ===========================
+Conference Journey
+=========================== */
+
+.journey{
+    padding:120px 0;
+    background:#0b1020;
+}
+
+.section-title{
+    max-width:700px;
+    margin:0 auto 80px;
+    text-align:center;
+}
+
+.journey-tag{
+    display:inline-block;
+    padding:8px 18px;
+    border-radius:50px;
+    font-size:.9rem;
+    background:rgba(98,120,255,.12);
+    color:#7f9cff;
+    border:1px solid rgba(127,156,255,.25);
+    margin-bottom:20px;
+    cursor: pointer;
+}
+
+.section-title h2{
+    font-size:3rem;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.section-title p{
+    color:#9aa4c7;
+    line-height:1.8;
+    font-size:1rem;
+}
+
+.journey-timeline{
+
+    position:relative;
+
+    max-width:900px;
+    margin:auto;
+
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+.journey-timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:38px;
+    top:0;
+
+    width:2px;
+    height:100%;
+
+    background:linear-gradient(
+    to bottom,
+    #7c5cff,
+    #00d4ff
+    );
+
+}
+
+.journey-card{
+
+    display:flex;
+    gap:30px;
+
+    position:relative;
+}
+
+.journey-icon{
+
+    width:78px;
+    height:78px;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:28px;
+
+    flex-shrink:0;
+
+    background:linear-gradient(
+    135deg,
+    #7c5cff,
+    #00d4ff
+    );
+
+    color:white;
+
+    box-shadow:
+    0 0 25px rgba(90,120,255,.35);
+}
+
+.journey-content{
+
+    flex:1;
+
+    padding:30px;
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    backdrop-filter:blur(10px);
+
+    transition:.35s;
+}
+
+.journey-content:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#7c5cff;
+
+    box-shadow:
+    0 20px 40px rgba(0,0,0,.25);
+}
+
+.journey-content span{
+
+    color:#7f9cff;
+    font-size:.85rem;
+    letter-spacing:1px;
+    text-transform:uppercase;
+}
+
+.journey-content h3{
+
+    color:#fff;
+
+    margin:10px 0 15px;
+
+    font-size:1.4rem;
+}
+
+.journey-content p{
+
+    color:#9aa4c7;
+
+    line-height:1.8;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    .journey{
+
+        padding:80px 20px;
+    }
+
+    .section-title h2{
+
+        font-size:2.2rem;
+    }
+
+    .journey-card{
+
+        gap:20px;
+    }
+
+    .journey-icon{
+
+        width:60px;
+        height:60px;
+
+        font-size:22px;
+    }
+
+    .journey-timeline::before{
+
+        left:29px;
+    }
+
+    .journey-content{
+
+        padding:22px;
+    }
+}
+/* journey section start */
 
 /* footer section start */
     .footer{

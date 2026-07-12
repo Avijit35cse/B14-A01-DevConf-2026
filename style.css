@@ -239,13 +239,13 @@ body {
     gap: 20px;
 }
 
-.pricing-header h1 {
+.pricing-header-title {
     font-size: 48px;
     font-weight: bold;
     color: #0D1B2A;
 }
 
-.pricing-header p {
+.pricing-header-description {
     font-size: 16px;
     color: #575757;
 
@@ -425,7 +425,7 @@ body {
 }
 
 /* ............Pricing section end............ */
-/* journey section start */
+/* AI generated section start */
 /* ===========================
 Conference Journey
 =========================== */
@@ -499,7 +499,6 @@ Conference Journey
 
     display: flex;
     gap: 30px;
-
     position: relative;
 }
 
@@ -579,9 +578,148 @@ Conference Journey
     line-height: 1.8;
 }
 
-/* Responsive */
+/* AI generted section end*/
 
-@media(max-width:768px) {
+/* footer section start */
+.footer {
+    background-color: #0D1B2A;
+    padding-top: 20px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 0 40px;
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.footer-top-tagline {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #FD6E0A;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.footer-social-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.social-link-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.social-link-logo a {
+    text-decoration: none;
+    color: rgb(235, 224, 224);
+}
+
+.social-link-logo img {
+    width: 38px;
+    height: 38px;
+    display: block;
+    border: 1px solid #FD6E0A;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.footer-container hr {
+    color: #333333;
+    opacity: 10%;
+    border-top: 1px solid #333333;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 28px 40px;
+}
+
+.footer-bottom-left p,
+.footer-bottom-right a {
+    color: #FFFFFF;
+    opacity: 40%;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-bottom-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+/* footer section end */
+/* responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .hero-content h1 {
+        font-size: min(50px, 7.5vw);
+
+    }
+
+    .hero-content p {
+        max-width: 350px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .hero-button .btn {
+        padding: 10px 30px;
+        border-radius: 8px;
+        font-weight: 600;
+        margin-top: 0;
+    }
+
+    .pricing-card-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .speakers-heading h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .speaker-content {
+        grid-template-columns: 1fr;
+    }
+
+    .speaker-card {
+        grid-template-columns: 1fr;
+    }
+
+    img {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .nav-menu {
+        display: none;
+        /* Hamburger menu will be added later */
+    }
 
     .journey {
 
@@ -615,99 +753,40 @@ Conference Journey
 
         padding: 22px;
     }
-}
 
-/* journey section start */
-
-/* footer section start */
-.footer {
-    background-color: #0D1B2A;
-    padding-top: 20px;
-}
-
-.footer-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 70px 80px 35px 80px;
-}
-
-.footer-logo {
-    height: 45px;
-    display: block;
-}
-
-.footer-social-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 18px;
-}
-
-.social-link {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-}
-
-.social-link a {
-    text-decoration: none;
-    color: rgb(235, 224, 224);
-}
-
-.social-link img {
-    width: 20px;
-    height: 20px;
-    display: block;
-}
-
-.footer-container hr {
-    color: #333333;
-    opacity: 10%;
-    border-top: 1px solid #333333;
-}
-
-.footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 28px 40px;
-}
-
-.footer-bottom-left p,
-.footer-bottom-right a {
-    color: #FFFFFF;
-    opacity: 40%;
-    font-size: 14px;
-    text-decoration: none;
-    padding: 0 40px;
-}
-
-.footer-bottom-right {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8px;
-}
-
-/* footer section end */
-/* responsive */
-@media (max-width: 992px) {
-    .pricing-card-container {
-        grid-template-columns: 1fr;
-        gap: 30px;
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
     }
 
-    .speaker-content {
-        grid-template-columns: 1fr;
+    .pricing-header-title {
+        text-align: center;
+        font-size: 32px;
     }
 
-    .nav-menu {
+    .pricing-header-description {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-top,
+    .footer-bottom,
+    .footer-bottom-right {
+        flex: 1;
+    }
+
+    .footer-social-container {
+        margin-top: 0px;
+    }
+
+    .footer-bottom,
+    .footer-top-tagline {
         display: none;
-        /* Hamburger menu will be added later */
     }
+
 }

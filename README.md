@@ -38,5 +38,5 @@ Clean Folder Structure
 The goal of this project was to strengthen my HTML and CSS fundamentals by building a complete landing page without using any JavaScript.
 
 #Author
-Avijit Barua
-Programmin Hero,Batch-14
+#Avijit Barua
+#Programming Hero,Batch-14

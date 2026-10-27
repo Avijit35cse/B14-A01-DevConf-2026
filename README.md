@@ -1,42 +1,52 @@
-#A modern and responsive developer conference landing page built using HTML5 and CSS3 only.
+# DevConf 2026 — Developer Conference Landing Page
 
-#This project was created to practice and improve my core HTML and CSS skills, including layout design, Flexbox, Grid, responsive design, and UI development without using JavaScript.
+A modern and responsive developer conference landing page built using **HTML5 and CSS3 only**.
 
-#Features
+This project was created as part of my frontend development learning journey to strengthen my core HTML and CSS skills by building a complete, responsive landing page without using JavaScript.
 
-Responsive Navigation Bar
-Modern Hero Section
-Speakers Section
-Pricing Cards
-Creative Conference Journey Timeline
-Responsive Footer
-Mobile Responsive Design
-Clean and Reusable CSS Structure
+## ✨ Features
 
-#Technologies Used
+- 📱 Responsive Navigation Bar
+- 🚀 Modern Hero Section
+- 🎤 Speakers Section
+- 💳 Pricing Cards
+- 🗓️ Creative Conference Journey Timeline
+- 🦶 Responsive Footer
+- 📐 Mobile-Responsive Layout
+- 🎨 Clean and Reusable CSS Structure
 
-HTML5
-CSS3
-Flexbox
-CSS Grid
-Media Queries
-Google Fonts (Inter)
+## 🛠️ Technologies Used
 
-#What I Practiced
+- HTML5
+- CSS3
+- Flexbox
+- CSS Grid
+- CSS Media Queries
+- Google Fonts — Inter
 
-Semantic HTML
-Responsive Layouts
-Flexbox & CSS Grid
-Component-based UI Structure
-Hover Effects & Transitions
-Spacing and Alignment
-Mobile Responsive Design
-Clean Folder Structure
+## 📚 What I Practiced
 
-#Project Goal
+- Semantic HTML structure
+- Responsive web layouts
+- Flexbox and CSS Grid
+- Reusable UI section structure
+- Hover effects and transitions
+- Spacing and alignment
+- Mobile-responsive design
+- Clean project and folder organization
 
-The goal of this project was to strengthen my HTML and CSS fundamentals by building a complete landing page without using any JavaScript.
+## 🎯 Project Goal
 
-#Author
-Avijit Barua,
-Programming Hero,Batch-14
+The goal of this project was to strengthen my HTML5 and CSS3 fundamentals by designing and developing a complete developer conference landing page without relying on JavaScript.
+
+## 👨‍💻 Author
+
+**Avijit Barua**  
+Frontend Development Learner | Programming Hero, Batch 14
+
+- **GitHub:** [@Avijit35cse](https://github.com/Avijit35cse)
+- **Live Demo:** [DevConf 2026](https://avijit35cse.github.io/B14-A01-DevConf-2026/)
+
+---
+
+*Built with HTML and CSS, driven by curiosity and a passion for frontend development.*
